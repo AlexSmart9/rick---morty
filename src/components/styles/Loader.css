@@ -1,0 +1,25 @@
+.loader{
+    flex-direction: column;
+    .text{
+        font-family: var(--font-alternative);
+        font-size: 1.5em;
+        color: white;
+        border-right: 4px solid;
+		white-space: nowrap;
+		width: 10ch;
+	    overflow: hidden;
+		animation: typing 1s infinite steps(10) alternate,
+					blink 0.2s infinite step-end alternate;
+    }
+}
+@keyframes typing {
+	from {
+		width: 0;
+	}
+}
+
+@keyframes blink {
+	50% {
+		border-color: transparent;
+	}
+}

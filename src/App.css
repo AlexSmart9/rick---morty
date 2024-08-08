@@ -1,0 +1,48 @@
+.app{
+    flex-direction: column;
+    gap: 2em;
+    .app__hero{
+        height: 100px;
+    }
+    .app__body{
+        padding: 1em 3em;
+    }
+}
+.form{
+    margin-bottom: 1.5em;
+    text-align: center;
+    gap: 1em;
+    .form__input{
+        padding: 0.5em 0.2em;
+        color: #04a904;
+        background-color: #000000b4;
+        border-radius: 0.5em;
+        width: 10em;
+       
+    }
+    .form__btn{
+        padding: 0.5em 0.8em;
+        background-color: #04a904;
+        color: #fff;
+        font-weight: 500;
+        border: 1px solid var(--secondary-color);
+        border-radius: .5em ;
+        transition: all .5s ease;
+        &:hover{
+            background-color: var(--secondary-color);
+            box-shadow: 0px 0px 10px 2px #04a904;
+        }
+    }
+}
+.cards__container{
+    gap: 2em;
+    padding-bottom: 3em;
+    flex-wrap: wrap;
+}
+
+.text__error{
+    font-family: var(--font-alternative);
+    color: #000;
+    font-size: 2em;
+    
+}
